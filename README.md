@@ -6,21 +6,6 @@
 
 ### Preview
 
-
-![](screenshot/jekyll-theme-h2o-realhome.jpg)
-
-![](screenshot/jekyll-theme-h2o-realm.png)
-
-如果你喜欢这个博客模板，请在右上角star一下，非常感谢～
-
-If you like this theme or using it, please give a ⭐️ for motivation ;)
-
-如果想体验手机浏览效果，可以扫一下二维码：
-
-![](screenshot/1494404591.png)
-
-Using your smartphone to scan the QR Code
-
 ### Features 特性
 
 #### CN
@@ -51,23 +36,6 @@ Using your smartphone to scan the QR Code
 - Search
 - Copyright text on copy event
 
-### Usage 快速开始
-
-首先你需要安装Jekyll，请查看文档: [快速指南](http://jekyll.com.cn/docs/quickstart/)
-
-如果你已经安装了Jekyll，请检查版本是否为3.0.x，你可以使用 ```gem update jekyll``` 命令进行升级。
-
-使用 ```gem install jekyll-paginate``` 或 ```sudo gem install jekyll-paginate``` 安装Jekyll的分页插件。
-
-> H2O主题基于Jekyll 3.2.1版本，不同版本之间可能存在部分差异，具体请参考[官方更新文档](https://jekyllrb.com/news/)
-
-点击右上角Fork按钮在你的Github上创建分支，或者```clone```到本地。
-
-``` git clone https://github.com/kaeyleo/jekyll-theme-H2O.git ```
-
-最后，在命令行输入 ```jekyll server``` 开启服务，就能在本地预览主题了。
-
-如果需要部署到线上环境，请参照配置文档的 **开始** 章节进行操作。
 
 ### Document 配置文档
 
@@ -126,10 +94,10 @@ You can easily get started by modifying _config.yml
 
 ```
 # Site settings
-title: '廖柯宇的独立博客' # 你的博客网站标题
+title: 'mrstench的独立博客' # 你的博客网站标题
 description: '很高兴能在这里与你分享我对技术和生活的思考。' # 站点描述
-keyword: '廖柯宇, 廖柯宇的独立博客, 前端, 设计' # 网站关键词
-url: 'http://liaokeyu.com' # 站点url
+keyword: 'mrstench, mrstench的独立博客, 前端, 设计' # 网站关键词
+url: 'http://mrstench.com' # 站点url
 baseurl: ''
 
 # Build settings
@@ -177,7 +145,6 @@ exclude: ['node_modules', 'dev', 'package.json', '自定义的文件夹名字']
 
 #### 侧边栏
 
-![](screenshot/jekyll-theme-h2o-sideBar.png)
 
 侧边栏分为两个部分：【个人简介】和【推荐标签】。当屏幕宽度小于960px时，侧边栏会被隐藏。
 
@@ -190,10 +157,10 @@ exclude: ['node_modules', 'dev', 'package.json', '自定义的文件夹名字']
 ```
 # SNS settings 配置社交网站url
 sns:
-  weibo: '//weibo.com/lovecolcol'
-  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-  instagram: '//www.instagram.com/steveliaocn'
-  github: '//github.com/kaeyleo'
+  weibo: '//weibo.com/u/5118134182'
+  juejin: '//juejin.cn/user/1776464792402381'
+  instagram: '//www.instagram.com/mrstench'
+  github: '//github.com/mrstench'
 ```
 
 sns属性可选参数：

@@ -44,8 +44,10 @@ comments:
 mathjax: true
 
 # Share
+#为了让文章更方便地分享，使用了第三方分享插件Share:
+#  js，支持一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站。:
 social-share: false
-social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+social-share-items: []
 
 # theme color 主题皮肤
 theme-color: 'default'  # pink or default
@@ -57,6 +59,8 @@ postPatterns: 'circuitBoard'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   github: '//github.com/mrstench'
+  weibo: '//weibo.com/u/5118134182'
+  juejin: '//juejin.cn/user/1776464792402381'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
