@@ -8,10 +8,10 @@ url: '' # your host
 # 在服务器上建站时，如果你不需要子域名，请将这一格留空
 # if you're using GitHub Pages, set baseurl to your blog's .
 # 如果你在使用 GitHub Pages, 请将 baseurl 设置为你的网址的子域名
-# for example, if your site is "kaeyleo.github.io", then this url should leave blank.
-# 例如，当你的域名是 "kaeyleo.github.io"  时，这个 url 需要留空
-# but if your created a repo named "myblog", and the site is "kaeyleo.github.io/myblog", change baseurl to '/myblog'
-# 但是，如果你创建了一个叫 "myblog" 的网站，此时网址会变成 "kaeyleo.github.io/myblog" ，这时再将 baseurl 设置为 '/myblog'
+# for example, if your site is "mrstench.github.io", then this url should leave blank.
+# 例如，当你的域名是 "mrstench.github.io"  时，这个 url 需要留空
+# but if your created a repo named "myblog", and the site is "mrstench.github.io/myblog", change baseurl to '/myblog'
+# 但是，如果你创建了一个叫 "myblog" 的网站，此时网址会变成 "mrstench.github.io/myblog" ，这时再将 baseurl 设置为 '/myblog'
 baseurl: ''
 
 # Navigation links
@@ -48,7 +48,7 @@ social-share: true
 social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
 
 # theme color 主题皮肤
-theme-color: 'pink'  # pink or default
+theme-color: 'default'  # pink or default
 
 # Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
 postPatterns: 'circuitBoard'
@@ -77,7 +77,7 @@ kramdown:
 RSS: false
 
 # Permalink
-# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
+# See: https://github.com/mrstench/jekyll-theme-H2O/issues/35
 permalink: /:year/:month/:day/:title.html
 
 # Plugins
