@@ -1,13 +1,15 @@
 ---
 layout: post
 title: 'PHP获取日期' 
-subtitle: '获取本日/本周/本月/本年之前N日/N周/N月/N年的开始时间和结束时间（时间戳）'
+subtitle: ''
 date: 2021-04-14 
 author: mrstench 
 categories: PHP
 cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
 tags: PHP
 ---
+
+> 获取本日/本周/本月/本年之前N日/N周/N月/N年的开始时间和结束时间（时间戳）
 
 ```phpt
     <?php
