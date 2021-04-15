@@ -1,10 +1,8 @@
 ---
 layout: post
-title: 'PHP获取日期' 
-subtitle: ''
-date: 2021-04-14 
-author: mrstench 
-categories: PHP
+title: 'PHP获取日期'
+date: 2021-04-14
+author: mrstench
 cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
 tags: PHP
 ---
