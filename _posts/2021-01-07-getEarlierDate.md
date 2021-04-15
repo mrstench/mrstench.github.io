@@ -1,10 +1,6 @@
 ---
-layout: post
-title: '获取本日/本周/本月/本年之前N日/N周/N月/N年的开始时间和结束时间（时间戳）'
-subtitle: ''
-date: 2021-04-14
-author: mrstench
-categories: PHP
+layout: post title: '获取本日/本周/本月/本年之前N日/N周/N月/N年的开始时间和结束时间（时间戳）' subtitle: ''
+date: 2021-04-14 author: mrstench categories: PHP
 cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
 tags: PHP
 ---
@@ -32,7 +28,7 @@ tags: PHP
         $date = [];
         switch ($dateType) {
             case 'day':
-                for ($i = 0; $i < $num; $i++) {
+                for ($i = $num - 1; $i >= 0; $i--) {
                     $startDate = mktime(0, 0, 0, $m, $d - $i, $y);
                     $endDate = mktime(23, 59, 59, $m, $d - $i, $y);
                     $date[] = [
@@ -42,7 +38,7 @@ tags: PHP
                 }
                 break;
             case 'week':
-                for ($i = 0; $i < $num; $i++) {
+                for ($i = $num - 1; $i >= 0; $i--) {
                     $startDate = mktime(0, 0, 0, $m, $d - $w + 1 - $i * 7, $y);
                     $endDate = mktime(23, 59, 59, $m, $d - $w + 7 - $i * 7, $y);
                     $date[] = [
@@ -52,7 +48,7 @@ tags: PHP
                 }
                 break;
             case 'month':
-                for ($i = 0; $i < $num; $i++) {
+                for ($i = $num - 1; $i >= 0; $i--) {
                     $startDate = mktime(0, 0, 0, $m - $i, 1, $y);
                     $endDate = mktime(0, 0, 0, $m + 1 - $i, 1, $y) - 1;
                     $date[] = [
@@ -62,7 +58,7 @@ tags: PHP
                 }
                 break;
             case 'year':
-                for ($i = 0; $i < $num; $i++) {
+                for ($i = $num - 1; $i >= 0; $i--) {
                     $startDate = mktime(0, 0, 0, 1, 1, $y - $i);
                     $endDate = mktime(0, 0, 0, 1, 1, $y + 1 - $i) - 1;
                     $date[] = [
